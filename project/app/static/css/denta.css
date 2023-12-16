@@ -1,0 +1,505 @@
+
+*{
+    margin: 0;
+
+}
+
+
+
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.header_centering {
+    display: flex;
+    height: 100%;
+    width: 98%;
+}
+
+
+.header_logo_wrapper {
+    height: 100%;
+    width: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.header_logo_wrapper img {
+    width: 90%;
+    height: 90%;
+
+}
+
+
+.social_networks_wrapper {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 6%;
+    height: 100%;
+
+}
+
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 30%;
+
+    height: 100%;
+}
+
+
+.menu__item {
+    padding-left: 30px;
+
+
+}
+
+.menu__link{
+    text-decoration: none;
+
+}
+
+.contact__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+
+    height: 100%;
+}
+
+.contact__item {
+    padding-left: 30px;
+    width: 20%;
+}
+
+.contact__link {
+    text-decoration: none;
+}
+
+.calendar_item {
+    padding-left: 30px;
+    width: 20%;
+}
+
+.calendar{
+    text-decoration: none;
+}
+.schedule {
+    text-decoration: none;
+}
+
+.Phone {
+    padding-left: 30px;
+    width: 20%;
+}
+
+.number {
+    text-decoration: none;
+}
+
+.number_zakaz{
+    text-decoration: none;
+}
+
+
+
+.under-main_title {
+    position: absolute;
+    bottom: 10px; /* можно выбрать любое значение */
+    left: 10px; /* можно выбрать любое значение */
+    color: black;
+    background-color: rgba(0, 0, 0, 0); /* прозрачный цвет фона */
+    padding-left: 100px;
+    padding-bottom: 300px;
+}
+
+.Advantages {
+    position: relative;
+    width: 100%;
+
+
+}
+
+.main-title-footer{
+    display: flex;
+    position: absolute;
+    bottom: 10px; /* можно выбрать любое значение */
+    left: 100px; /* можно выбрать любое значение */
+    color: black;
+    rgba(255, 255, 255, 0.40);
+    backdrop-filter: blur(9.5px);
+    padding-bottom: 35px;
+    margin-right: 400px;
+    width: 100%;
+}
+
+.main-title-footer-container {
+    padding-left: 40px;
+}
+
+
+.services {
+    max-width: 100%;
+}
+
+.services_title {
+    display: inline-block;
+    width: 20%;
+    flex-direction: column;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+
+
+.exsaple_services_ {
+    display: flex;
+}
+
+.exsaple_buttons {
+    display: flex;
+    margin-left: 100px;
+    background-color: aqua;
+}
+
+.nnan {
+    display: flex;
+    padding-top: 40px;
+}
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.footer_centering {
+    display: flex;
+    height: 100%;
+    width: 98%;
+}
+
+
+.footer_logo_wrapper {
+    height: 100%;
+    width: 5%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.footer_logo_wrapper img {
+    width: 90%;
+    height: 90%;
+
+}
+
+
+.social_networks_wrapper {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 6%;
+    height: 100%;
+
+}
+
+
+.menu__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+
+    height: 100%;
+}
+
+
+.menu__item {
+    padding-left: 100px;
+
+
+}
+
+.menu__link{
+    text-decoration: none;
+
+}
+
+.contact__list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 60%;
+
+    height: 100%;
+}
+
+.contact__item {
+    padding-left: 100px;
+    width: 40%;
+}
+
+.contact__link {
+    text-decoration: none;
+}
+
+.calendar_item {
+    padding-left: 30px;
+    width: 20%;
+}
+
+.calendar{
+    text-decoration: none;
+}
+.schedule {
+    text-decoration: none;
+}
+
+.Phone {
+    padding-left: 30px;
+    width: 20%;
+}
+
+.number {
+    text-decoration: none;
+}
+
+.number_zakaz{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {*/
+/*    max-width: 1660px;*/
+/*    padding: 0 10px;*/
+/*    margin: 0 auto;*/
+/*    !*background-color: #ff4040*!*/
+
+/*}*/
+
+/*ul{*/
+/*    margin: 0;*/
+/*    list-style: none;*/
+/*}*/
+
+
+/*li{*/
+/*    padding-left: 0;*/
+/*}*/
+
+/*a{*/
+/*    text-decoration: none;*/
+/*    color: inherit;*/
+/*}*/
+
+
+/*.header {*/
+/*    max-height: 110px;*/
+/*    background-color: green;*/
+/*}*/
+
+/*.container{*/
+/*    max-width: 1660px;*/
+/*    margin: 0 auto;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+
+/*}*/
+
+
+
+
+/*.header__inner{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*    align-items: center;*/
+/*}*/
+
+
+/*.logo__img_main {*/
+/*    padding-right: 55px;*/
+/*    margin-left: 0;*/
+/*    margin-top: 30px;*/
+
+/*}*/
+
+
+
+/*.logo__img {*/
+/*    padding-top: 10px;*/
+/*    align-items: center;*/
+/*    padding-left: 15px;*/
+/*    max-width: 50px;*/
+
+/*}*/
+
+
+
+/*.menu__list {*/
+/*    padding-left: 70px;*/
+/*    display: flex;*/
+/*}*/
+
+
+/*.menu__item {*/
+/*    padding-top: 50px;*/
+
+/*    padding-right:50px;*/
+/*    max-width: 50px;*/
+/*}*/
+
+
+/*.contact__list {*/
+/*    padding-left: 530px;*/
+/*    display: flex;*/
+
+/*}*/
+
+/*.geoposition {*/
+/*    padding-top: 0;*/
+/*}*/
+
+/*.calendar {*/
+/*    padding-left: 20px;*/
+/*}*/
+
+
+/*.phone {*/
+/*    padding-left: 20px;*/
+/*}*/
+
+
+/*.Phone_number{*/
+/*    background-color: aqua;*/
+/*    padding-left: 20px;*/
+/*}*/
+
+
+/*.main-titile {*/
+/*    position: relative;*/
+
+/*}*/
+
+/*.under-main_title {*/
+/*    position: absolute;*/
+/*    bottom: 10px; !* можно выбрать любое значение *!*/
+/*    left: 10px; !* можно выбрать любое значение *!*/
+/*    color: black;*/
+/*    background-color: rgba(0, 0, 0, 0); !* прозрачный цвет фона *!*/
+/*    padding-left: 100px;*/
+/*    padding-bottom: 300px;*/
+/*}*/
+
+/*.main-title-footer {*/
+/*    position: relative;*/
+
+/*}*/
+
+/*.main-title-footer-container{*/
+/*    display: flex;*/
+/*    position: absolute;*/
+/*    bottom: 10px; !* можно выбрать любое значение *!*/
+/*    left: 100px; !* можно выбрать любое значение *!*/
+/*    color: black;*/
+/*    rgba(255, 255, 255, 0.40);*/
+/*    backdrop-filter: blur(9.5px);*/
+/*    padding-bottom: 35px;*/
+/*    margin-right: 400px;*/
+/*}*/
+
+
+/*.exsaple_services {*/
+/*    padding-left: 50px;*/
+/*    padding-right: 50px;*/
+/*    margin: 0 auto;*/
+
+
+/*}*/
+
+/*.exsaple_buttons {*/
+/*    background-color: aqua;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.zubi{*/
+/*    padding-left: 20px;*/
+/*    padding-right: 30px;*/
+/*}*/
+
+
+/*.description_buttons {*/
+
+/*    background-color: green;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.prodolzhenie {*/
+/*    background-color: aqua;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+
+/*}*/
+
+
+/*.nam_doverayt {*/
+/*    background-color: aqua;*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*}*/
+
+
+/*.sertificat {*/
+
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*    flex-direction: row;*/
+/*}*/

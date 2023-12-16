@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/denta.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<header>
+  <div class="header_centering">
+
+    <div class="header_logo_wrapper">
+      <img src="{% static 'images/logo.svg' %}" alt="logo">
+    </div>
+
+
+    <ul class="social_networks_wrapper">
+      <li class="social_network">
+        <a href="#">
+          <img class='google' src="{% static 'images/google.svg' %}" alt="google">
+        </a>
+      </li>
+      <li class="social_network">
+        <a href="#">
+          <img class='instagram' src="{% static 'images/instagram.svg' %}" alt="instagram">
+        </a>
+      </li>
+      <li class="social_network">
+        <a href="#">
+          <img class='invision.svg' src="{% static 'images/invision.svg' %}" alt="invision">
+        </a>
+      </li>
+    </ul>
+
+
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a class="menu__link" href="#">О нас</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Специалисты</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Пациентам</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="#">Контакты</a>
+      </li>
+    </ul>
+
+
+    <ul class="contact__list">
+      <img class="geoposition" src="{% static 'images/location_outline.svg' %}" alt="geo">
+      <li class="contact__item">
+        <a class="contact__link" href="#">Чебоксары,
+          Энтузиастов 1А</a>
+      </li>
+      <img class="calendar" src="{% static 'images/calendar.svg' %}" alt="geo">
+      <li class="calendar_item">
+        <a class="schedule" href="#">С 09.00 - 20.00 пн-сб</a>
+      </li>
+      </li>
+      <img class="phone" src="{% static 'images/phone.svg' %}" alt="geo">
+      <li class="Phone">
+        <a class="number" href="#">+7900 333 10 40</a>
+      </li>
+      </li>
+      <li class="Phone_number">
+        <a class="number_zakaz" href="#">Заказать звонок</a>
+      </li>
+    </ul>
+  </div>
+</header>
+</body>
+</html>

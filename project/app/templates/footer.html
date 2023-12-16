@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/denta.css' %}">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<footer>
+  <div class="footer_centering">
+
+    <ul class="social_networks_wrapper">
+      <li class="social_network">
+        <a href="#">
+          <img class='google' src="{% static 'images/google.svg' %}" alt="google">
+        </a>
+      </li>
+      <li class="social_network">
+        <a href="#">
+          <img class='instagram' src="{% static 'images/instagram.svg' %}" alt="instagram">
+        </a>
+      </li>
+      <li class="social_network">
+        <a href="#">
+          <img class='invision.svg' src="{% static 'images/invision.svg' %}" alt="invision">
+        </a>
+      </li>
+    </ul>
+
+
+    <ul class="menu__list">
+      <li class="menu__item">
+        <a class="menu__link" href="#">ООО «Дент», лицензия №ЛО-86-8681-01868686047 от 13.02.2099
+© 2018-2021</a>
+      </li>
+    </ul>
+
+
+    <ul class="contact__list">
+
+      <li class="contact__item">
+        <a class="contact__link" href="#">Политика в отношении обработки персональных данных</a>
+      </li>
+    </ul>
+    <div class="footer_logo_wrapper">
+      <img src="{% static 'images/logo.svg' %}" alt="logo">
+    </div>
+  </div>
+</footer>
+</body>
+</html>
